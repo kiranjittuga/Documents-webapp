@@ -12,6 +12,11 @@ pipeline {
             ''' 
       }
     }
+    
+    stage ('Build'){
+      sh 'mv clean package'
+      
+      }
   }
  } 
     
